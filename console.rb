@@ -78,10 +78,10 @@ screening4 = Screening.new({
   "film_id" => film1.id
   })
 
-screening1.save()
-screening2.save()
-screening3.save()
-screening4.save()
+# screening1.save()
+# screening2.save()
+# screening3.save()
+# screening4.save()
 
 ticket1 = Ticket.new({
   "customer_id" => customer1.id,
@@ -113,11 +113,11 @@ ticket5 = Ticket.new({
   "screening_id" => screening4.id
   })
 
-ticket1.save()
-ticket2.save()
-ticket3.save()
-ticket4.save()
-ticket5.save()
+# ticket1.save()
+# ticket2.save()
+# ticket3.save()
+# ticket4.save()
+# ticket5.save()
 
 
 
