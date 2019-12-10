@@ -9,3 +9,8 @@ get '/films' do
   @films = Film.all()
   erb(:index)
 end
+
+get '/films/:id' do
+  @films = Film.find_by_id(params["id"])
+  erb(:film)
+end

@@ -87,11 +87,11 @@ class Film
     shows.max {|hash| shows.count(hash)}
   end
 
-  def find_by_id(id)
+  def self.find_by_id(id)
     sql = "SELECT * FROM films WHERE id = $1"
-    values = [@id]
-    results = SqlRunner.run(sql, values)
-    film = results.map { |hash| Film.new(hash)}
+    values = [id]
+    results = SqlRunner.run(sql, values)[0]
+  #  film = results.map { |hash| Film.new(hash)}
   end
 
 
