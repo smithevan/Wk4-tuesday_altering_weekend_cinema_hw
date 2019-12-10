@@ -5,7 +5,7 @@ require 'pry'
 require_relative('./models/film')
 also_reload('./models/*')
 
-get '/index' do
+get '/films' do
   @films = Film.all()
   erb(:index)
 end

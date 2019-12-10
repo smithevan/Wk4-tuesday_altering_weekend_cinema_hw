@@ -6,5 +6,10 @@ li {
   color: grey;
   list-style-type: none;
   font-size: 150px;
-  font-family: arial; 
+  font-family: arial;
+}
+
+a {
+  color: grey;
+  text-decoration: none; 
 }
