@@ -1,3 +1,10 @@
 body {
-  background-color: green; 
+  background-color: #CAE1FF;
+}
+
+li {
+  color: grey;
+  list-style-type: none;
+  font-size: 150px;
+  font-family: arial; 
 }
